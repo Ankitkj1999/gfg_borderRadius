@@ -35,8 +35,11 @@ void main() {
                       color: const Color(0xFF000000),
                       width: 4.0,
                       style: BorderStyle.solid), //Border.all
-                  borderRadius: BorderRadius.vertical(
-                      top: Radius.circular(10), bottom: Radius.circular(30)),
+                  borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(5),
+                      topRight: Radius.circular(10),
+                      bottomLeft: Radius.circular(15),
+                      bottomRight: Radius.circular(20)),
                 ),
               ),
             ),

@@ -27,17 +27,15 @@ void main() {
               height: 250,
               child: Container(
                 decoration: BoxDecoration(
-                  image: const DecorationImage(
-                    image: NetworkImage(
-                        'https://media.geeksforgeeks.org/wp-content/cdn-uploads/logo.png'),
-                  ),
-                  border: Border.all(
-                      color: const Color(0xFF000000),
-                      width: 4.0,
-                      style: BorderStyle.solid), //Border.all
-                  borderRadius: BorderRadius.vertical(
-                      top: Radius.circular(10), bottom: Radius.circular(30)),
-                ),
+                    image: const DecorationImage(
+                      image: NetworkImage(
+                          'https://media.geeksforgeeks.org/wp-content/cdn-uploads/logo.png'),
+                    ),
+                    border: Border.all(
+                        color: const Color(0xFF000000),
+                        width: 4.0,
+                        style: BorderStyle.solid), //Border.all
+                    borderRadius: BorderRadius.circular(50.0)), //BoxDirection
               ),
             ),
           ),

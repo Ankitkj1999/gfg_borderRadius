@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
+    //Our app widget tree starts herwe
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
@@ -35,14 +36,17 @@ void main() {
                       color: const Color(0xFF000000),
                       width: 4.0,
                       style: BorderStyle.solid), //Border.all
-                  borderRadius: BorderRadius.all(Radius.circular(10)),
-                ), //BoxDirection
+                  /* The BorderRadius widget  is here */
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(10),
+                  ), //BorderRadius.all
+                ), //BoxDecoration
               ),
             ),
           ),
         ), //Center
       ), //Scaffold
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false, //Deug banner is turned off
     ), //MaterialApp
   );
 }

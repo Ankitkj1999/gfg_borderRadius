@@ -36,7 +36,9 @@ void main() {
                       width: 4.0,
                       style: BorderStyle.solid), //Border.all
                   borderRadius: BorderRadius.vertical(
-                      top: Radius.circular(10), bottom: Radius.circular(30)),
+                    top: Radius.circular(10),
+                    bottom: Radius.circular(30),
+                  ), //BorderRadius.vertical
                 ),
               ),
             ),

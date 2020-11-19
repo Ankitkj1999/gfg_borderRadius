@@ -36,10 +36,11 @@ void main() {
                       width: 4.0,
                       style: BorderStyle.solid), //Border.all
                   borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(5),
-                      topRight: Radius.circular(10),
-                      bottomLeft: Radius.circular(15),
-                      bottomRight: Radius.circular(20)),
+                    topLeft: Radius.circular(5),
+                    topRight: Radius.circular(10),
+                    bottomLeft: Radius.circular(15),
+                    bottomRight: Radius.circular(20),
+                  ), //BorderRadius.Only
                 ),
               ),
             ),
